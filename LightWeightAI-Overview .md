@@ -12,20 +12,20 @@
 -   [Contact Info](#section61728335424)
 
 ## Introduction<a name="section1270210396435"></a>
-    LightWeightAI is an open-source project launched by the OpenHarmony.
-    LightWeightAI platform build an ultra-lightweightAI subsystem based on the community for different device types to implement device-side capabilities of lightweight harmony
+LightWeightAI is an open-source project launched by the OpenHarmony.
+LightWeightAI platform build an ultra-lightweightAI subsystem based on the community for different device types to implement device-side capabilities of lightweight harmony
 
 ## Technical Architecture<a name="section2502124574318"></a>
 
 **Runtime**
 
-    Loads and runs the graph
+Loads and runs the graph
 
 **Kernel**
 
-    Basic mathematical arithmetic operations and operators.It can also be connected to third-party acceleration libraries.
-    Default operator supports optimization.
-    Operator support by different kernel framework.
+Basic mathematical arithmetic operations and operators.It can also be connected to third-party acceleration libraries.
+Default operator supports optimization.
+Operator support by different kernel framework.
        - TVM  -> 140
        - TinyTVM custom ops -> 6
        - ACL  -> 123
@@ -33,23 +33,23 @@
 
 **Memory**
 
-    Memory management module
+Memory management module
 
 **Loader**
 
-    Loads Models in Flatbuffer and JSON formats
+Loads Models in Flatbuffer and JSON formats
 
 **Third-party library**
 
-    Third party operator library or acceleration library.such as CMSIS-NN and ACL
+Third party operator library or acceleration library.such as CMSIS-NN and ACL
 
 **Hardware backend**
 
-    The upstream community supports architectures such as CPU(x86/ARM),GPU,DSP,FPGA,NPU and linux platforms
+The upstream community supports architectures such as CPU(x86/ARM),GPU,DSP,FPGA,NPU and linux platforms
 
 
 ## Technical Features<a name="section12212842173518"></a>
-    Based on the TVM upstream community solution,compatible with all popular frontend frameworks,covering customization from L0 to L2
+Based on the TVM upstream community solution,compatible with all popular frontend frameworks,covering customization from L0 to L2
 
 
 
