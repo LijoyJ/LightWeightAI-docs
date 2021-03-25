@@ -11,8 +11,8 @@
 -   [Contact Info](#section61728335424)
 
 ## Introduction<a name="section1270210396435"></a>
-&nbsp;&nbsp;&nbsp;&nbsp;LightWeightAI is an open-source project launched by the OpenHarmony.<br />
-&nbsp;&nbsp;&nbsp;&nbsp;LightWeightAI platform build an ultra-lightweightAI subsystem based on the community for different device types to implement device-side capabilities of lightweight harmony
+LightWeightAI is an open-source project launched by the OpenHarmony.<br />
+LightWeightAI platform build an ultra-lightweightAI subsystem based on the community for different device types to implement device-side capabilities of lightweight harmony
        
 
 ## Technical Architecture<a name="section2502124574318"></a>
@@ -23,8 +23,8 @@ Loads and runs the graph
 
 -   **Kernel**
 
-&nbsp;&nbsp;&nbsp;&nbsp;Basic mathematical arithmetic operations and operators.It can also be connected to third-party acceleration libraries.<br />
-&nbsp;&nbsp;&nbsp;&nbsp;Default operator supports optimization.<br />
+Basic mathematical arithmetic operations and operators.It can also be connected to third-party acceleration libraries.<br />
+Default operator supports optimization.<br />
 
 -   **Memory**
 
