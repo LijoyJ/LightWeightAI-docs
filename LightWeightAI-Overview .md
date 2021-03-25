@@ -52,7 +52,9 @@ Based on the TVM upstream community solution,compatible with all popular fronten
 
 ## LightWeightAI Compiler Framework<a name="section21031470109"></a>
 LightWeight AI compiler framework will build an accessible, extensible framework that optimizes current and emerging machine learning models for any hardware platform.LightWeightAI compiler framework use TVM codegen solution for this.
+
 **TVM codegen framework**
+
 A unified framework for  accelerator vendors to integrate their codegens.
 You can find more details in [TVM codegen document](https://tvm.apache.org/docs/dev/relay_bring_your_own_codegen.html?highlight=codegen)
 
