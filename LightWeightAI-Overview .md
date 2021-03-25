@@ -25,11 +25,6 @@ Loads and runs the graph
 
 Basic mathematical arithmetic operations and operators.It can also be connected to third-party acceleration libraries.<br />
 Default operator supports optimization.<br />
-Operator support by different kernel framework.<br />
-       - TVM  -> 140<br />
-       - TinyTVM custom ops -> 6<br />
-       - ACL  -> 123<br />
-       - CMSIS-NN  -> 15<br />
 
 -   **Memory**
 
@@ -55,7 +50,7 @@ Based on the TVM upstream community solution,compatible with all popular fronten
 ## LightWeightAI Compiler Framework<a name="section21031470109"></a>
 LightWeight AI compiler framework will build an accessible, extensible framework that optimizes current and emerging machine learning models for any hardware platform.LightWeightAI compiler framework use TVM codegen solution for this.
 
-**TVM codegen framework**
+-   TVM codegen framework**
 
 A unified framework for  accelerator vendors to integrate their codegens.<br />
 TVM codegen framework does the following step
