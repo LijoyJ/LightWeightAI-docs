@@ -53,11 +53,16 @@ The upstream community supports architectures such as CPU(x86/ARM),GPU,DSP,FPGA,
 Based on the TVM upstream community solution,compatible with all popular frontend frameworks,covering customization from L0 to L2
 
 ## LightWeightAI Compiler Framework<a name="section21031470109"></a>
-LightWeight AI compiler framework will build an accessible, extensible framework that optimizes current and emerging machine learning models for any hardware platform.LightWeightAI compiler framework use TVM codegen solution for this.
+\tLightWeight AI compiler framework will build an accessible, extensible framework that optimizes current and emerging machine learning models for any hardware platform.LightWeightAI compiler framework use TVM codegen solution for this.
 
 **TVM codegen framework**
 
-A unified framework for  accelerator vendors to integrate their codegens.
+A unified framework for  accelerator vendors to integrate their codegens.\n
+TVM codegen framework does the following step
+-   Graph anotation
+-   Grapn transformation
+-   Code generation
+-   Runtime
 You can find more details in [TVM codegen document](https://tvm.apache.org/docs/dev/relay_bring_your_own_codegen.html?highlight=codegen)
 
 ## Getting Started<a name="section44681652104210"></a>
