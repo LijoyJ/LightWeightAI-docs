@@ -13,6 +13,7 @@
 ## Introduction<a name="section1270210396435"></a>
 LightWeightAI is an open-source project launched by the OpenHarmony.
        LightWeightAI platform build an ultra-lightweightAI subsystem based on the community for different device types to implement device-side capabilities of lightweight harmony
+       
 
 ## Technical Architecture<a name="section2502124574318"></a>
 
@@ -45,6 +46,7 @@ Third party operator library or acceleration library.such as CMSIS-NN and ACL
 -   **Hardware backend**
 
 The upstream community supports architectures such as CPU(x86/ARM),GPU,DSP,FPGA,NPU and linux platforms
+
 
 
 ## Technical Features<a name="section12212842173518"></a>
