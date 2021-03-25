@@ -16,11 +16,11 @@ LightWeightAI is an open-source project launched by the OpenHarmony.
 
 ## Technical Architecture<a name="section2502124574318"></a>
 
-**Runtime**
+-   **Runtime**
 
 Loads and runs the graph
 
-**Kernel**
+-   **Kernel**
 
 Basic mathematical arithmetic operations and operators.It can also be connected to third-party acceleration libraries.
 Default operator supports optimization.
@@ -30,19 +30,19 @@ Operator support by different kernel framework.
        - ACL  -> 123
        - CMSIS-NN  -> 15
 
-**Memory**
+-   **Memory**
 
 Memory management module
 
-**Loader**
+-   **Loader**
 
 Loads Models in Flatbuffer and JSON formats
 
-**Third-party library**
+-   **Third-party library**
 
 Third party operator library or acceleration library.such as CMSIS-NN and ACL
 
-**Hardware backend**
+-   **Hardware backend**
 
 The upstream community supports architectures such as CPU(x86/ARM),GPU,DSP,FPGA,NPU and linux platforms
 
