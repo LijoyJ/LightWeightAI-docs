@@ -11,8 +11,8 @@
 -   [Contact Info](#section61728335424)
 
 ## Introduction<a name="section1270210396435"></a>
-LightWeightAI is an open-source project launched by the OpenHarmony.<br />
-LightWeightAI platform build an ultra-lightweightAI subsystem based on the community for different device types to implement device-side capabilities of lightweight harmony
+&nbsp;&nbsp;&nbsp;&nbsp;LightWeightAI is an open-source project launched by the OpenHarmony.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;LightWeightAI platform build an ultra-lightweightAI subsystem based on the community for different device types to implement device-side capabilities of lightweight harmony
        
 
 ## Technical Architecture<a name="section2502124574318"></a>
@@ -23,8 +23,8 @@ Loads and runs the graph
 
 -   **Kernel**
 
-Basic mathematical arithmetic operations and operators.It can also be connected to third-party acceleration libraries.<br />
-Default operator supports optimization.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Basic mathematical arithmetic operations and operators.It can also be connected to third-party acceleration libraries.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Default operator supports optimization.<br />
 
 -   **Memory**
 
@@ -50,7 +50,7 @@ Based on the TVM upstream community solution,compatible with all popular fronten
 ## LightWeightAI Compiler Framework<a name="section21031470109"></a>
 LightWeight AI compiler framework will build an accessible, extensible framework that optimizes current and emerging machine learning models for any hardware platform.LightWeightAI compiler framework use TVM codegen solution for this.
 
--   TVM codegen framework**
+-   **TVM codegen framework**
 
 A unified framework for  accelerator vendors to integrate their codegens.<br />
 TVM codegen framework does the following step
@@ -58,7 +58,7 @@ TVM codegen framework does the following step
 -   Grapn transformation
 -   Code generation
 -   Runtime<br />
-You can find more details in [TVM codegen document](https://tvm.apache.org/docs/dev/relay_bring_your_own_codegen.html?highlight=codegen)
+<br />You can find more details in [TVM codegen document](https://tvm.apache.org/docs/dev/relay_bring_your_own_codegen.html?highlight=codegen)
 
 ## Getting Started<a name="section44681652104210"></a>
 
