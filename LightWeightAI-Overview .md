@@ -11,8 +11,8 @@
 -   [Contact Info](#section61728335424)
 
 ## Introduction<a name="section1270210396435"></a>
-____LightWeightAI is an open-source project launched by the OpenHarmony.<br />
-____LightWeightAI platform build an ultra-lightweightAI subsystem based on the community for different device types to implement device-side capabilities of lightweight harmony
+LightWeightAI is an open-source project launched by the OpenHarmony.<br />
+LightWeightAI platform build an ultra-lightweightAI subsystem based on the community for different device types to implement device-side capabilities of lightweight harmony
        
 
 ## Technical Architecture<a name="section2502124574318"></a>
@@ -53,16 +53,16 @@ The upstream community supports architectures such as CPU(x86/ARM),GPU,DSP,FPGA,
 Based on the TVM upstream community solution,compatible with all popular frontend frameworks,covering customization from L0 to L2
 
 ## LightWeightAI Compiler Framework<a name="section21031470109"></a>
-\tLightWeight AI compiler framework will build an accessible, extensible framework that optimizes current and emerging machine learning models for any hardware platform.LightWeightAI compiler framework use TVM codegen solution for this.
+LightWeight AI compiler framework will build an accessible, extensible framework that optimizes current and emerging machine learning models for any hardware platform.LightWeightAI compiler framework use TVM codegen solution for this.
 
 **TVM codegen framework**
 
-A unified framework for  accelerator vendors to integrate their codegens.\n
+A unified framework for  accelerator vendors to integrate their codegens.<br />
 TVM codegen framework does the following step
 -   Graph anotation
 -   Grapn transformation
 -   Code generation
--   Runtime
+-   Runtime<br />
 You can find more details in [TVM codegen document](https://tvm.apache.org/docs/dev/relay_bring_your_own_codegen.html?highlight=codegen)
 
 ## Getting Started<a name="section44681652104210"></a>
